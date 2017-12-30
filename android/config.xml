@@ -8,8 +8,5 @@
   <description>
       Just a game that developed by unfaedah students..
   </description>
-
-  <preference name="orientation" value="landscape" />
-  <preference name="fullscreen"  value="true" />  
   <icon src="icon.png" />
 </widget>
