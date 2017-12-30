@@ -1,0 +1,1149 @@
+<!doctype html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en" class="no-js gs">
+<!--<![endif]-->
+
+<head>
+    <script>(function (H) { H.className = H.className.replace(/\bno-js\b/, 'js') })(document.documentElement)</script>
+    <meta charset="utf-8">
+    <style>
+        .js #metamax {
+            margin-left: -12000px;
+            width: 100%;
+        }
+    </style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="Metamax 5th Edition">
+    <meta name="author" content="Muhammad Ilham Fittrory | Rifiyan Fauzarudin | Bima Nur Yaqin | Nadia Anggraini">
+    <title id="t">MetaMax 6th Edition</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS : implied media="all" -->
+    <link rel="stylesheet" href="assets/css/wow_book.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/MetaMax5.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/uikit.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/fonts/material/icons.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/materialize.min.css">
+    <link href='//fonts.googleapis.com/css?family=News+Cycle' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/jssocials.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/jssocials-theme-flat.css">
+
+
+</head>
+
+<body class="" onload="muatDaftarData();" onload="simpanData();">
+
+    <div id="container">
+        <!-- cloud -->
+        <div class="cloud large cloud-1">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="cloud normal cloud-2">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="cloud small cloud-3">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="cloud tiny cloud-4">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="cloud large cloud-5">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="cloud normal cloud-6">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="cloud small cloud-7">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="cloud tiny cloud-8">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="cloud small cloud-9">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="cloud normal cloud-10">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="cloud tiny cloud-11">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="cloud small cloud-12">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+        <h3 id="jamkot" class="displaynone"></h3>
+
+        <div class="grey lighten-5" id="bottom-nav">
+            <!-- left -->
+            <a href="#modal_help" class="nav-item waves-effect" id="fullscreen" uk-tooltip="delay : 50" title="Bantuan" uk-tooltip>
+                <i class="material-icons">help</i>
+            </a>
+
+            <a href="#modal1" class="nav-item waves-effect" id="btn-search" uk-tooltip="delay : 50" title="Cari Segalanya" uk-tooltip>
+                <i class="material-icons">search</i>
+            </a>
+
+            <a class="nav-item waves-effect open-bookmark" id="slide-mode" uk-tooltip="delay :50" title="Penanda Halaman" uk-tooltip>
+                <i class="material-icons">bookmark</i>
+            </a>
+
+            <div class="nav-item waves-effect" id="cov" uk-tooltip="delay :50" title="Halaman Awal" uk-tooltip onclick="window.location.href='#metamax/1'">
+                <i class="material-icons">home</i>
+            </div>
+
+            <div class="nav-item prev waves-effect" id="prev" uk-tooltip="delay :50" title="Halaman Sebelumnya" uk-tooltip>
+                <!-- <img src="assets/images/light/l_prev.png" id="img-nav" width="30"> -->
+                <i class="material-icons">chevron_left</i>
+            </div>
+            <!-- end of left -->
+
+            <a class="waves-effect" href="#modal-about" id="logo" uk-tooltip="delay :50" title="Metamax Menu" uk-tooltip>
+                <img src="" id="img-nav" width="100">
+            </a>
+
+            <!-- right -->
+            <div class="nav-item next waves-effect" id="next" uk-tooltip="delay :50" title="Halaman Selanjutnya" uk-tooltip>
+                <i class="material-icons">chevron_right</i>
+            </div>
+
+            <div class="nav-item waves-effect but_hide copied" id="copy" uk-tooltip="delay :50" title="Instant Copy" uk-tooltip data-clipboard-text="adam">
+                <i class="material-icons">content_copy</i>
+            </div>
+
+            <div class="nav-item waves-effect but_hide" id="music" uk-tooltip="delay :50" title="Atur Musik" uk-tooltip>
+                <i class="material-icons">volume_up</i>
+
+            </div>
+            <div class="music-box white">
+                <ul class="collection">
+                    <li class="collection-item green-text" onclick="changeMusic('song1')">
+                        <i class="material-icons left">audiotrack</i>Departure</li>
+                    <li class="collection-item green-text" onclick="changeMusic('song2')">
+                        <i class="material-icons left">audiotrack</i>One OK Rock - Memories</li>
+                    <li class="collection-item">
+                        <label class="btn green" for="audio">
+                            <i class="material-icons left">audiotrack</i>Custom</label>
+                    </li>
+                    <input type="file" class="displaynone" id="audio">
+                </ul>
+                <audio id="player" controls loop style="width:100%;" src="assets/file/backsound/song1.mp3"></audio>
+            </div>
+
+
+
+            <!-- right -->
+
+            <div class="nav-item zoomin waves-effect" id="zoomin" uk-tooltip="delay :50" title="Perbesar Majalah" uk-tooltip>
+                <i class="material-icons">zoom_in</i>
+            </div>
+            <div class="nav-item zoomout waves-effect" id="zoomout" uk-tooltip="delay :50" title="Perkecil Majalah" uk-tooltip>
+                <i class="material-icons">zoom_out</i>
+            </div>
+            <!-- <div class="nav-item zoomout waves-effect waves-grey tooltiped" id="pin" data-toggle="tooltip" data-position="top" data-delay="50" data-tooltip="Perkecil Majalah"><i class="material-icons indi">home</i></div> -->
+        </div>
+
+
+
+        <div id="main">
+            <div id='metamax' class="buku animated fadeInDown">
+                <div id="p1"></div>
+                <div id="p2"></div>
+                <div id="p3">
+                    <div class="daftar-isi">
+                        <center>
+                            <div class="item" onclick="window.location.href='index.html#metamax/4'">
+                                <h3>4</h3>
+                            </div>
+                            <div class="item" onclick="window.location.href='index.html#metamax/12'">
+                                <h3>12</h3>
+                            </div>
+                            <div class="item" onclick="window.location.href='index.html#metamax/24'">
+                                <h3>24</h3>
+                            </div>
+                        </center>
+                    </div>
+                </div>
+                <div id="p4">
+                    <img src="assets/page/umsida.png" style="position:absolute;left:263px;right:0px;margin:auto;bottom:13%;width:32%;" class="animated tada infinite">
+                    <a href="http://umsida.ac.id" target="blank" style="position:absolute;bottom:5%; width:180px;left:0px;right:0px;margin:auto;"
+                        class="white-text btn-link">www.umsida.ac.id</a>
+                </div>
+                <div id="p5"></div>
+                <div id="p6">
+                    <img src="assets/page/visimisi2.png" class="animated infinite munyeng" style="width:192px; position:absolute;right:26%; top:3%;">
+                </div>
+                <div id="p7">
+                    <a href="http://ekonomi.umsida.ac.id" target="blank"><img src="assets/page/Click (1).png" style="position:absolute; right:280px; top:224px; height:115px; width:125px;" class=""></a>
+                    <a href="http://ft.umsida.ac.id" target="blank"><img src="assets/page/Click (2).png" style="position:absolute; right:152px; top:224px; height:115px; width:125px;" class=""></a>
+                    <a href="http://fai.umsida.ac.id" target="blank"><img src="assets/page/Click (3).png" style="position:absolute; right:24px; top:224px; height:115px; width:125px;" class=""></a>
+                    <a href="http://fikes.umsida.ac.id" target="blank"><img src="assets/page/Click (4).png" style="position:absolute; right:280px; top:333px; height:115px; width:125px;" class=""></a>
+                    <a href="http://pertanian/" target="blank"><img src="assets/page/Click (5).png" style="position:absolute; right:152px; top:333px; height:115px; width:125px;" class=""></a>
+                    <a href="http://fkip.umsida.ac.id" target="blank"><img src="assets/page/Click (6).png" style="position:absolute; right:24px; top:333px; height:115px; width:125px;" class=""></a>
+                    <a href="http://fisip.umsida.ac.id" target="blank"><img src="assets/page/Click (7).png" style="position:absolute; right:280px; top:440px; height:115px; width:125px;" class=""></a>
+                    <a href="http://psikologi.umsida.ac.id" target="blank"><img src="assets/page/Click (8).png" style="position:absolute; right:152px; top:440px; height:115px; width:125px;" class=""></a>
+                    <a href="http://hukum.umsida.ac.id" target="blank"><img src="assets/page/Click (9).png" style="position:absolute; right:24px; top:440px; height:115px; width:125px;" class=""></a>
+                </div>
+                <div id="p8"></div>
+                <div id="p9">
+                    <img src="assets/page/visimisi.png" class="animated infinite munyeng" style="width:380px; position:absolute;right:5%; top:5%;">
+                </div>
+                <div id="p10">
+                    <img src="assets/page/ilkom.png" style="width:310px;position:absolute;left:2%;margin:auto;top:19%;" class="animated infinite leftright">
+                </div>
+                <div id="p11"></div>
+                <div id="p12">
+                    <img src="assets/page/technopreneur.png" class="animated infinite updown" style="position:absolute;right:5%; top:-2%;">
+                </div>
+                <div id="p13"></div>
+                <div id="p14"></div>
+                <div id="p15">
+                    <img src="assets/page/pojokmedia.png" style="width:190px;position:absolute;left:2%;margin:auto;top:3%;" class="animated infinite tada">
+                </div>
+                <div id="p16">
+                    <img src="assets/page/tips.png" style="width:260px;position:absolute;left:-1%;margin:auto;top:7%;" class="animated infinite munyeng">
+                </div>
+                <div id="p17"></div>
+                <div id="p18"></div>
+                <div id="p19"></div>
+                <div id="p20"></div>
+                <div id="p21">
+                    <img src="assets/page/logosmk.png" style="width:110px;position:absolute;right:2%;margin:auto;top:2%;" class="animated infinite tada">
+                </div>
+                <div id="p22">
+                    <img src="assets/page/riski.png" width="200px;" style="position:absolute;top:27%;left:5%;" class="animated tada infinite">
+                    <img src="assets/page/rifiyan.png" width="200px;" style="position:absolute;top:33%;left:54%;" class="animated tada infinite">
+                </div>
+                <div id="p23">
+                    <img src="assets/page/orik.png" width="200px;" style="position:absolute;top:38%;left:-6%;" class="animated tada infinite">
+                    <img src="assets/page/nadia.png" width="200px;" style="position:absolute;top:36%;left:52%;" class="animated tada infinite">
+                </div>
+                <div id="p24">
+                    <a href="http://www.instagram.com/mcc_journalist" target="blank"><img src="assets/page/mcc.png" width="250px;" style="position:absolute;top:91%;left:28%;" class="animated leftright infinite"></a>
+                </div>
+                <div id="p25"></div>
+                <div id="p26"></div>
+                <div id="p27"></div>
+                <div id="p28"></div>
+            </div>
+            <!-- halaman -->
+        </div>
+
+
+    </div>
+    <!--! end of #container -->
+
+    <div class="modal" id="modal-about">
+        <div class="modal-content row">
+            <div class="menu-block">
+                <center>
+                    <a href="assets/file/apk.apk" class="col m6 l6 s12" id="android">
+                        <div class="cards">
+                            <center>
+                                <i class="material-icons">android</i>
+                                <h5 class="robo">Android Version</h5>
+                            </center>
+                        </div>
+                    </a>
+
+                    <a class="col m6 l6 s12" id="pdf" href="assets/file/pdf.pdf" target="blank">
+                        <div class="cards">
+                            <center>
+                                <i class="material-icons">chrome_reader_mode</i>
+                                <h5 class="robo">PDF Version</h5>
+                            </center>
+                        </div>
+                    </a>
+
+                    <a href="http://metamax.16mb.com/admin/citizen_home.php" target="blank" class="col m6 l6 s12" id="citizen">
+                        <div class="cards">
+                            <center>
+                                <i class="material-icons">edit</i>
+                                <h5 class="robo">Upload An Article</h5>
+                            </center>
+                        </div>
+                    </a>
+
+                    <div class="col m6 l6 s12" id="settings">
+                        <div class="cards">
+                            <center>
+                                <i class="material-icons">settings</i>
+                                <h5 class="robo">Setting</h5>
+                            </center>
+                        </div>
+                    </div>
+                </center>
+            </div>
+
+            <div class="setting-block">
+                <h5 class="robo grey-text" style="font-size:14px;">
+                    <a class="left back-change" style="cursor:pointer">
+                        <i class="material-icons">chevron_left</i>
+                    </a>
+                    Ubah Tema</h5>
+                <div class="switch">
+                    <label>
+                        Default
+                        <input type="checkbox" id="main-setting" aktif="ya">
+                        <span class="lever"></span>
+                        Custom
+                    </label>
+                </div>
+                <br>
+                <div class="custom-set">
+                    <div class="box-background col m6 s12 l6 animated fadeInUp" id="bg5" bg="bg5" style="background:url('assets/images/bg5.jpg');background-size:cover;"></div>
+                    <div class="box-background col m6 s12 l6 animated fadeInUp" id="bg4" bg="bg4" style="background:url('assets/images/bg4.jpg');background-size:cover;"></div>
+                    <div class="box-background col m6 s12 l6 animated fadeInUp" id="bg6" bg="bg6" style="background:url('assets/images/bg6.jpg');background-size:cover;"></div>
+                    <div class="box-background col m6 s12 l6 animated fadeInUp" id="bg3" bg="bg3" style="background:url('assets/images/bg3.jpg');background-size:cover;"></div>
+                </div>
+                <div class="default-set">
+                    <p class="robo grey-text">Aktifkan pengaturan custom untuk mengatur warna yang anda sukai. Pengaturan default mengikuti Tema default
+                        majalah
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="comment-box blue lighten-1">
+        <div class="open-chat blue lighten-1">
+            <i class="material-icons white-text">message</i>
+        </div>
+        <iframe src="http://metamax.16mb.com/4/assets/comment.html"></iframe>
+    </div>
+
+    <!-- bookmark -->
+
+    <div class="bookmark-box white lighten-1">
+        <div class="col-md-6">
+            <p style="font-size:30px;">Penanda Halaman</p>
+            <a class="open-bookmark" style="position:absolute; top:25px; left:307px;">
+                <i class="small material-icons">close</i>
+            </a>
+        </div>
+        <div class="col-md-12">
+            <form id="form-data" class="row">
+                <input type="text" id="nama" class="uk-input uk-form-width-mediumx" placeholder="Nama Pembaca">
+                <br>
+
+                <input type="date" id="tanggal" class="uk-input uk-form-width-mediumx datepicker" placeholder="Masukan Tanggal">
+                <br>
+                <div class="input-group">
+                    <select id="halaman" class="uk-select" placeholder="pilih halaman" style="margin-bottom:10px;">
+                        <option value="">Pilih Halaman</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                        <option>21</option>
+                        <option>22</option>
+                        <option>23</option>
+                        <option>24</option>
+                        <option>25</option>
+                        <option>26</option>
+                        <option>27</option>
+                    </select>
+
+                    <span class="input-group-btn">
+                        <button class="btn waves-effect blue" onclick="simpanData();">Simpan</button>
+                    </span>
+                </div>
+            </form>
+        </div>
+
+        <div class="scrull">
+            <div class="col-md-12 bookmark-item-box" id="list-data">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- tumbnail-box -->
+
+    <div id="modal1" class="modal modal-fixed-footer">
+        <nav style="position:fixed;top:0px;z-index:99">
+            <div class="nav-wrapper grey lighten-5">
+                <div class="input-field">
+                    <input class="search-input" id="search" type="search" name="search" required placeholder="Cari Semuanya disini">
+                    <label for="search">
+                        <i class="material-icons">search</i>
+                    </label>
+                </div>
+            </div>
+        </nav>
+        <div class="modal-content">
+            <div style="margin-top:60px;">
+
+
+                <!-- salam redaksi -->
+                <div class="card thumb-horizon row search-item">
+                    <p class="displaynone redaksi"></p>
+                    <div class="col m3">
+                        <img src="assets/page/2.jpg" width="100%">
+                    </div>
+                    <div class="col m9">
+                        <h5>Salam Redaksi</h5>
+                        <p>Halo MetaReaders. Berjumpa kembali dengan kami tim MetaMax Digital Magazine dari SMKN 1 Purwosari
+                            yang kini sudah memasuki edisi ke - 6, loh. Di MetaMax Digital Magazine kali ini kami mengikuti
+                            kompetisi Madig Vol.2 2018 yang diadakan di Universitas Muhammadiyah Sidoarjo dengan mengangkat
+                            tema mengenai Technopreneur Di Era Digital .Penasaran kan ? Selamat membaca, SobatMeta.
+                        </p>
+                        <br>
+                        <a class="btn waves-effect blue darken-3 modal-action modal-close" href="#metamax/2">Baca Artikel</a>
+                        <div class="share1"></div>
+                    </div>
+                </div>
+
+                <!-- daftar isi -->
+                <div class="card thumb-horizon row search-item">
+                    <p class="displaynone daftarisi"></p>
+                    <div class="col m3">
+                        <img src="assets/page/3.jpg" width="100%">
+                    </div>
+                    <div class="col m9">
+                        <h5>Daftar isi</h5>
+                        <p>
+                        </p>
+                        <br>
+                        <a class="btn waves-effect blue darken-3 modal-action modal-close" href="#metamax/3">Baca Artikel</a>
+                        <div class="share1"></div>
+                    </div>
+                </div>
+
+                <!-- web umsida -->
+                <div class="card thumb-horizon row search-item">
+                    <p class="displaynone webumsida"></p>
+                    <div class="col m3">
+                        <img src="assets/page/4.jpg" width="100%">
+                    </div>
+                    <div class="col m9">
+                        <h5>UMSIDA - halaman 3</h5>
+                        <p> UMSIDA (Universitas Muhammadiyah Sidoarjo) www.umsida.ac.id
+                        </p>
+                        <br>
+                        <a class="btn waves-effect blue darken-3 modal-action modal-close" href="#metamax/4">Baca Artikel</a>
+                        <div class="share2"></div>
+                    </div>
+                </div>
+
+                <!-- Profil Umsida -->
+                <div class="thumb-horizon row search-item card">
+                    <p class="displaynone profil_umsida"></p>
+                    <div class="col m3">
+                        <img src="assets/page/5.jpg" width="100%">
+                    </div>
+                    <div class="col m9">
+                        <h5>Universitas Muhammadiyah Sidoarjo - halaman 5</h5>
+                        <p>Universitas Muhammadyah Sidoarjo (UMSIDA) merupakan salah satu universitas swasta yang berdiri pada
+                            tahun 1984 di Kabupaten Sidoarjo, Jawa Timur. Universitas terakreditasi B ini terdiri dari 4
+                            kampus dengan penempatan yang berbeda.Kampus I yang berada di Jl.Mojopahit 666 B Sidoarjo, kampus
+                            II di Jl.Raya Gelam 250 Candi Sidoarjo, kampus III di Perum IKIP V / I Gunung Anyar Surabaya
+                            dan terakhir kampus IV yang berada di Jl.Raya Rame Pilang No.04 Wonoayu....</p>
+                        <br>
+                        <a class="btn waves-effect blue darken-3 modal-action modal-close" href="#metamax/5">Baca Artikel</a>
+                        <div class="share2"></div>
+                    </div>
+                </div>
+
+                <!-- hmj -->
+                <div class="thumb-horizon row search-item card">
+                    <p class="displaynone visi_misi"></p>
+                    <div class="col m3">
+                        <img src="assets/page/6.jpg" width="100%">
+                    </div>
+                    <div class="col m9">
+                        <h5>VISI & MISI UMSIDA - halaman 6</h5>
+                        <p>Visi Umsida : Menjadi Perguruan Tinggi Bermutu Tingkat Nasional Tahun 2020. Misi Umsida : 1. Menyelenggarakan
+                            pendidikan tinggi berbasis kurikulum yang terintegratif, sehingga menghasilkan lulusan yang memiliki
+                            keunggulan profesional, sosial dan berkepribadian Islam. 2. Meningkatkan kompetensi pendidik
+                            dan tenaga kependidikan. 3. Memberikan pelayanan akademik yang bermutu kepada seluruh mahasiswa
+                            UMSIDA 4. Mengimplementasikan sistem penjaminan mutu internal ...</p>
+                        <br>
+                        <a class="btn waves-effect blue darken-3 modal-action modal-close" href="#metamax/6">Baca Artikel</a>
+                        <div class="share3"></div>
+                    </div>
+                </div>
+
+                <div class="thumb-horizon row search-item card">
+                    <p class="displaynone fakultas"></p>
+                    <div class="col m3">
+                        <img src="assets/page/7.jpg" width="100%">
+                    </div>
+                    <div class="col m9">
+                        <h5>Fakultas UMSIDA - halaman 7</h5>
+                        <p>Mau tau apa saja fakultas yang ada di Universitas Muhammadiyah Sidoarjo ? Berikut ini adalah beberapa
+                            fakultas yang ada di Universitas Muhammadiyah Sidoarjo yang berjumlah 9 fakultas.</p>
+                        <br>
+                        <a class="btn waves-effect blue darken-3 modal-action modal-close" href="#metamax/7">Baca Artikel</a>
+                        <div class="share3"></div>
+                    </div>
+                </div>
+
+                <div class="thumb-horizon row search-item card">
+                    <p class="displaynone psik"></p>
+                    <div class="col m3">
+                        <img src="assets/page/8.jpg" width="100%">
+                    </div>
+                    <div class="col m9">
+                        <h5>About Prodi Ilmu Komunikasi UMSIDA - halaman 8</h5>
+                        <p>Program Studi Ilmu Komunikasi mencakup 3 peminatan, yakni Manajemen Komunikasi, Public Relation dan
+                            Broadcasting Televisi. Manajemen Komunikasi, meliputi : Aplikasi komputer, Fotografi, Public
+                            Speaking, Cyber Media, Teknik Publisitas, Perencanaan & Produksi Radio Broadcasting, Manajemen
+                            Periklanan, Desain Grafis, Desain Animasi, Perencanaan & Produksi Audio Visual, Audio Komunikasi,
+                            Fimologi, Sinematografi, serta Teknik Editing. Public Relations.....</p>
+                        <br>
+                        <a class="btn waves-effect blue darken-3 modal-action modal-close" href="#metamax/8">Baca Artikel</a>
+                        <div class="share4"></div>
+                    </div>
+                </div>
+
+                <div class="thumb-horizon row search-item card">
+                    <p class="displaynone visi_misi_psik"></p>
+                    <div class="col m3">
+                        <img src="assets/page/9.jpg" width="100%">
+                    </div>
+                    <div class="col m9">
+                        <h5>VISI & MISI Prodi Ilmu Komunikasi - halaman 9</h5>
+                        <p>Visi : Menyelenggarakan pendidikan tinggi bidang kajian ilmu - ilmu sosial dan ilmu politik yang
+                            berdasarkan pada pancasila dan nilai - nilai islam. Misi : Menyelenggarakan perguruan tinggi
+                            yang berkualitas dan professional bidang kajian ilmu Administrasi Publik dan Ilmu Komunikasi
+                            Mengembangkan sumber daya manusia yang berkualitas dalam peningkatan ilmu pengetahuan di bidang
+                            kajian Administrasi Publik....</p>
+                        <br>
+                        <a class="btn waves-effect blue darken-3 modal-action modal-close" href="#metamax/9">Baca Artikel</a>
+                        <div class="share4"></div>
+                    </div>
+                </div>
+
+
+                <div class="thumb-horizon row search-item card">
+                    <p class="displaynone prospek_kerja1"></p>
+                    <div class="col m3">
+                        <img src="assets/page/10.jpg" width="100%">
+                    </div>
+                    <div class="col m9">
+                        <h5>Prospek Kerja Lulusan Ilmu Komunikasi - halaman 10</h5>
+                        <p>1. Broadcaster Pihak - pihak yang terlibat dalam dunia pelayaran yang kebanyakan ditempatkan di stasiun
+                            televisi, radio, ataupun kantor - kantor surat kabar, tabloid maupun majalah.Bidang kerja mencangkup
+                            produser, sutradara, reporter, copy writer. 2....
+                        </p>
+                        <br>
+                        <a class="btn waves-effect blue darken-3 modal-action modal-close" href="#metamax/10">Baca Artikel</a>
+                        <div class="share5"></div>
+                    </div>
+                </div>
+
+                <div class="thumb-horizon row search-item card">
+                    <p class="displaynone prospek_kerja2"></p>
+                    <div class="col m3">
+                        <img src="assets/page/11.jpg" width="100%">
+                    </div>
+                    <div class="col m9">
+                        <h5>Prospek Kerja Lulusan Ilmu Komunikasi - halaman 11</h5>
+                        <p>5. Public Relations Officer Mewakili perusahaan dalam setiap waktu, menjaga nama baik perusahaan
+                            serta mewujudkan hubungan yang harmonis pada seluruh klien perusahaan, menjadi tugas utama para
+                            Public Relations Officer. 6. Event Orgnizer Merancang sebuah event besar, mulai bagaimana cara
+                            mengemas sebuah acara yang sesuai dengan konsep pesan yang ingin disampaikan, hingga mengatur
+                            acara sedemikian rupa agar meninggalkan kesan dan reutasi yang baik.....</p>
+                        <br>
+                        <a class="btn waves-effect blue darken-3 modal-action modal-close" href="#metamax/11">Baca Artikel</a>
+                        <div class="share5"></div>
+                    </div>
+                </div>
+
+
+
+                <div class="thumb-horizon row search-item card">
+                    <p class="displaynone technopreneur1"></p>
+                    <div class="col m3">
+                        <img src="assets/page/12.jpg" width="100%">
+                    </div>
+                    <div class="col m9">
+                        <h5>Mengenal Istilah Technopreneur - halaman 12</h5>
+                        <p>Technopreneur merupakan gabungan dari kata Entrepreneur dan Teknologi. Entrepreneur yang mengacu
+                            pada wirausahawan dengan berbagai skill kompetensi dan inovasi yang menjadikan usahanya terus
+                            berkembang. Sehingga dapat disimpulkan, bahwa Technopreneur adalah pemanfaatan perkembangan teknologi
+                            sebagai sarana prasana mengembangkan sebuah usaha hingga menghasilkan peluang usaha yang besar
+                            dan berpengaruh.....</p>
+                        <br>
+                        <a class="btn waves-effect blue darken-3 modal-action modal-close" href="#metamax/12">Baca Artikel</a>
+                        <div class="share6"></div>
+                    </div>
+                </div>
+
+                <div class="thumb-horizon row search-item card">
+                    <p class="displaynone technopreneur2"></p>
+                    <div class="col m3">
+                        <img src="assets/page/13.jpg" width="100%">
+                    </div>
+                    <div class="col m9">
+                        <h5>Hal apa saja yang bisa dilakukan Technopreneur - halaman 13</h5>
+                        <p>Bicara seputar Technopreneur, apa saja sih yang bisa dilakukan para Technopreneur di era digital
+                            saat ini? Buat kalian para Technopreneur yang pasti tak asing lagi dengan perkembangan hingga
+                            pemanfaatan teknologi digital, kalian dapat mengembangkan skill kompetensi dan Technopreneurship
+                            kalian mulai dari hal - hal kecil seperti membuat sebuah situs berupa blog maupun website, kalian
+                            harus pandai - pandai nih dalam mengamati keadaan disekitar kalian.....</p>
+                        <br>
+                        <a class="btn waves-effect blue darken-3 modal-action modal-close" href="#metamax/13">Baca Artikel</a>
+                        <div class="share6"></div>
+                    </div>
+                </div>
+
+                <div class="thumb-horizon row search-item card">
+                    <p class="displaynone startup"></p>
+                    <div class="col m3">
+                        <img src="assets/page/14.jpg" width="100%">
+                    </div>
+                    <div class="col m9">
+                        <h5>Mengenal Startup - halaman 14</h5>
+                        <p>Masih asing dengan yang namanya startup ? Startup, kata serapan dari Bahasa Inggris ini mengacu pada
+                            proses memulai suatu usaha atau organisasi baru. Jadi bisa dikata bahwa startup adalah sebuah
+                            perusahaan rintisan yang merujuk pada semua perusahaan yang belum lama beroperasi dan masih dalam
+                            proses perkembangan.....</p>
+                        <br>
+                        <a class="btn waves-effect blue darken-3 modal-action modal-close" href="#metamax/15">Baca Artikel</a>
+                        <div class="share7"></div>
+                    </div>
+                </div>
+
+
+                <div class="thumb-horizon row search-item card">
+                    <p class="displaynone pojok_media"></p>
+                    <div class="col m3">
+                        <img src="assets/page/15.jpg" width="100%">
+                    </div>
+                    <div class="col m9">
+                        <h5>POJOK MEDIA. "Karya anak muda sajikan Industri Creative" - halaman 15</h5>
+                        <p>PojokMedia.net adalah sebuah portal berita yang dirintis oleh pemuda-pemuda alumni SMKN 1 Purwosari
+                            dan telah dirilis pada 21 desember 2017.Informasi yang disajikan oleh PojokMedia sendiri terbagi
+                            kedalam 3 rubrik dimana masing-masing rubrik memiliki target pembaca tersendiri.....</p>
+                        <br>
+                        <a class="btn waves-effect blue darken-3 modal-action modal-close" href="#metamax/15">Baca Artikel</a>
+                        <div class="share7"></div>
+                    </div>
+                </div>
+
+
+                <div class="thumb-horizon row search-item card">
+                    <p class="displaynone tips"></p>
+                    <div class="col m3">
+                        <img src="assets/page/16.jpg" width="100%">
+                    </div>
+                    <div class="col m9">
+                        <h5>Tips Sukses Startup - halaman 16</h5>
+                        <p>Di era digital saat ini tak dapat dipungkiri bahwa persaingan di dunia bisnis sangatlah pesat. Apalagi
+                            bicara seputar perusahaan perusahaan startup yang terus bertambah seiring berjalannya waktu.
+                            Namun bagaimana sih caranya agar bisnis startupmu membawa kesuksesan besar.....</p>
+                        <br>
+                        <a class="btn waves-effect blue darken-3 modal-action modal-close" href="#metamax/16">Baca Artikel</a>
+                        <div class="share8"></div>
+                    </div>
+                </div>
+
+                <div class="thumb-horizon row search-item card">
+                    <p class="displaynone technopreneur3"></p>
+                    <div class="col m3">
+                        <img src="assets/page/17.jpg" width="100%">
+                    </div>
+                    <div class="col m9">
+                        <h5>Minat Pelajar dalam dunia Technopreneur - halaman 17</h5>
+                        <p>Para pelajar masa kini, yang termasuk dalam generasi modern sudah dipastikan tidak asing lagi dengan
+                            teknologi. Dalam era serba canggih ini, beberapa generasi muda kita sudah bisa memanfaatkan teknologi
+                            yang sudah ada dengan sebaik-baiknya. Namun kebanyakan mereka belum merasa tertarik untuk mencoba
+                            menjadi seorang Technopreneur......</p>
+                        <br>
+                        <a class="btn waves-effect blue darken-3 modal-action modal-close" href="#metamax/16">Baca Artikel</a>
+                        <div class="share8"></div>
+                    </div>
+                </div>
+
+                <div class="thumb-horizon row search-item card">
+                    <p class="displaynone komik1"></p>
+                    <div class="col m3">
+                        <img src="assets/page/18.jpg" width="100%">
+                    </div>
+                    <div class="col m9">
+                        <h5>KOMIK - halaman 18</h5>
+                        <p></p>
+                        <br>
+                        <a class="btn waves-effect blue darken-3 modal-action modal-close" href="#metamax/18">Baca Artikel</a>
+                        <div class="share9"></div>
+                    </div>
+                </div>
+
+                <div class="thumb-horizon row search-item card">
+                    <p class="displaynone komik2"></p>
+                    <div class="col m3">
+                        <img src="assets/page/19.jpg" width="100%">
+                    </div>
+                    <div class="col m9">
+                        <h5>KOMIK - halaman 19</h5>
+                        <p></p>
+                        <br>
+                        <a class="btn waves-effect blue darken-3 modal-action modal-close" href="#metamax/19">Baca Artikel</a>
+                        <div class="share9"></div>
+                    </div>
+                </div>
+
+                <div class="card thumb-horizon row search-item">
+                    <p class="displaynone smk"></p>
+                    <div class="col m3">
+                        <img src="assets/page/20.jpg" width="100%">
+                    </div>
+                    <div class="col m9">
+                        <h5>About SMKN 1 PURWOSARI - halaman 20</h5>
+                        <p>SMK Negeri 1 Purwosari merupakan salah satu lembaga pendidikan yang memiliki visi untuk membentuk
+                            tamatan yang beriman dan bertaqwa kepada Tuhan Yang Maha Esa, memiliki budi pekerti luhur, keterampilan,
+                            berdaya saing tinggi dan berwawasan lingkungan. SMK Negeri 1 Purwosari berdiri pada tahun 2000
+                            terletak di Purwosari, tepatnya Jl. Raya Purwosari Kecamatan Purwosari, Kabupaten Pasuruan......
+                        </p>
+                        <br>
+                        <a class="btn waves-effect blue darken-3 modal-action modal-close" href="#metamax/2">Baca Artikel</a>
+                        <div class="share1"></div>
+                    </div>
+                </div>
+
+                <div class="card thumb-horizon row search-item">
+                    <p class="displaynone jurusan"></p>
+                    <div class="col m3">
+                        <img src="assets/page/21.jpg" width="100%">
+                    </div>
+                    <div class="col m9">
+                        <h5>Jurusan SMKN 1 PURWOSARI - halaman 21</h5>
+                        <p>Jurusan yang ada di smk negeri smk negeri 1 purwosari teknik informatika multimedia teknik rekayasa
+                            perangkat lunak teknik komputer dan jaringan bidang elektronika mekatronika bidang pertanian
+                            agribisnis tanaman pangan dan holtikultura teknik pengolahan hasil pertanian teknik pemesinan
+                            teknik pemesinan body otomotif teknik kendaraan ringan teknik las
+                        </p>
+                        <br>
+                        <a class="btn waves-effect blue darken-3 modal-action modal-close" href="#metamax/2">Baca Artikel</a>
+                        <div class="share1"></div>
+                    </div>
+                </div>
+
+                <div class="card thumb-horizon row search-item">
+                    <p class="displaynone mtmx"></p>
+                    <div class="col m3">
+                        <img src="assets/page/22.jpg" width="100%">
+                    </div>
+                    <div class="col m9">
+                        <h5>PROFIL TEAM - halaman 22</h5>
+                        <p>MetaMax merupakan salah satu produk MCC yang berjalan di bidang Majalah Digital yang saat ini telah
+                            memasuki edisi ke-6. Pengambilan nama MetaMax sendiri digunakan untuk membedakan produk majalah
+                            digital milik MCC dengan Majalah Digital lainnya. Beranggotakan Rifiyan Fauzarudin sebagai Graphic
+                            Designer, Riski Ainur R sebagai Ilustrator, M Ilham Fitrory sebagai Web Developer dan Nadia Anggraini
+                            sebagai Reporter riski ilustrator rifiyan graphic designer.
+                        </p>
+                        <br>
+                        <a class="btn waves-effect blue darken-3 modal-action modal-close" href="#metamax/2">Baca Artikel</a>
+                        <div class="share1"></div>
+                    </div>
+                </div>
+
+                <div class="card thumb-horizon row search-item">
+                    <p class="displaynone team"></p>
+                    <div class="col m3">
+                        <img src="assets/page/23.jpg" width="100%">
+                    </div>
+                    <div class="col m9">
+                        <h5>PROFIL TEAM - halaman 23</h5>
+                        <p>
+                        </p>
+                        <br>
+                        <a class="btn waves-effect blue darken-3 modal-action modal-close" href="#metamax/2">Baca Artikel</a>
+                        <div class="share1"></div>
+                    </div>
+                </div>
+
+                <div class="card thumb-horizon row search-item">
+                    <p class="displaynone mcc"></p>
+                    <div class="col m3">
+                        <img src="assets/page/24.jpg" width="100%">
+                    </div>
+                    <div class="col m9">
+                        <h5>METAMORPH CREATIVE CREW - halaman 24</h5>
+                        <p>Metamorph Creative Crew (MCC) merupakan salah satu ekstrakulikuler sekaligus sebagai tim media SMKN
+                            1 Purwosari. Dengan konsep Jurnalistik MCC mulai berdiri ditahun 2008 .Dalam pelaksanaan kegiatan
+                            ekstra, MCC sendiri dibagi menjadi 2 departement utama dengan total 2 devisi disetiap departementnya
+                            Seperti News Departement yang terdiri dari Devisi Reporter dan Editor, dan Creative Departement
+                            yang terdiri dari Devisi fotografer dan Layouter.....
+                        </p>
+                        <br>
+                        <a class="btn waves-effect blue darken-3 modal-action modal-close" href="#metamax/2">Baca Artikel</a>
+                        <div class="share1"></div>
+                    </div>
+                </div>
+
+                <div class="card thumb-horizon row search-item">
+                    <p class="displaynone csb"></p>
+                    <div class="col m3">
+                        <img src="assets/page/25.jpg" width="100%">
+                    </div>
+                    <div class="col m9">
+                        <h5>About Central Spring Bed - halaman 25</h5>
+                        <p>Bicara mengenai produk-produk spring bed, tentunya sudah tak asing dengan merek spring bed yang satu
+                            ini. Yah, Central Spring Bed. Central Spring Bed didirikan oleh PT Graha Seribu Satu Jaya sejak
+                            1993 silam.Dan tak dapat dipungkiri, bahwa produk - produk Central Spring Bed telah tersebar
+                            ke seluruh penjuru Indonesia.....
+                        </p>
+                        <br>
+                        <a class="btn waves-effect blue darken-3 modal-action modal-close" href="#metamax/2">Baca Artikel</a>
+                        <div class="share1"></div>
+                    </div>
+                </div>
+
+                <div class="card thumb-horizon row search-item">
+                    <p class="displaynone kesehatan"></p>
+                    <div class="col m3">
+                        <img src="assets/page/26.jpg" width="100%">
+                    </div>
+                    <div class="col m9">
+                        <h5>Jaga Kesehatan Dengan tidu Berkualitas - halaman 26 </h5>
+                        <p>Tidur merupakan aktivitas yang wajib dilakukan oleh manusia, karena ketika tidur tubuh akan beristirahat
+                            setelah seharian melakukan aktivitas. Tapi, tidak semua orang bisa mendapatkan tidur yang nyenyak,
+                            ada beberapa alasan yang membuat seseorang kesulitan tidur....
+                        </p>
+                        <br>
+                        <a class="btn waves-effect blue darken-3 modal-action modal-close" href="#metamax/2">Baca Artikel</a>
+                        <div class="share1"></div>
+                    </div>
+                </div>
+
+                <div class="card thumb-horizon row search-item">
+                    <p class="displaynone list"></p>
+                    <div class="col m3">
+                        <img src="assets/page/27.jpg" width="100%">
+                    </div>
+                    <div class="col m9">
+                        <h5>Produk Central Spring Bed - halaman 27</h5>
+                        <p>Berikut adalah beberapa produk central spring bed, terdapat nama produk beserta harganya, tidak hanya
+                            dibawah ini saja masih banyak produk central spring bed lainnya.
+                        </p>
+                        <br>
+                        <a class="btn waves-effect blue darken-3 modal-action modal-close" href="#metamax/2">Baca Artikel</a>
+                        <div class="share1"></div>
+                    </div>
+                </div>
+
+
+                <center>
+                    <div class="thumb-item search-first modal-action modal-close" onclick="window.location.href='index.html#metamax/3'">
+                        <div class="img" style="background:url('assets/page/t/2.jpg');background-size:100% 100%;"></div>
+                        <div class="cpt grey lighten-5">
+                            <p>SALAM REDAKSI DAN DAFTAR ISI</p>
+                        </div>
+                    </div>
+
+                    <div class="thumb-item search-first modal-action modal-close" onclick="window.location.href='index.html#metamax/5'">
+                        <div class="img" style="background:url('assets/page/t/3.jpg');background-size:100% 100%;"></div>
+                        <div class="cpt grey lighten-5">
+                            <p>PROFIL UMSIDA</p>
+                        </div>
+                    </div>
+
+                    <div class="thumb-item search-first modal-action modal-close" onclick="window.location.href='index.html#metamax/7'">
+                        <div class="img" style="background:url('assets/page/t/4.jpg');background-size:100% 100%;"></div>
+                        <div class="cpt grey lighten-5">
+                            <p>VISI & MISI DAN FAKULTAS DI UMSIDA</p>
+                        </div>
+                    </div>
+
+                    <div class="thumb-item search-first modal-action modal-close" onclick="window.location.href='index.html#metamax/9'">
+                        <div class="img" style="background:url('assets/page/t/5.jpg');background-size:100% 100%;"></div>
+                        <div class="cpt grey lighten-5">
+                            <p>PROGRAM STUDI & VISI MISI ILMU KOMUNIKASI UMSIDA</p>
+                        </div>
+                    </div>
+
+                    <div class="thumb-item search-first modal-action modal-close" onclick="window.location.href='index.html#metamax/11'">
+                        <div class="img" style="background:url('assets/page/t/6.jpg');background-size:100% 100%;"></div>
+                        <div class="cpt grey lighten-5">
+                            <p>PROSPEK KERJA LULUSAN ILMU KOMUNIKASI UMSIDA</p>
+                        </div>
+                    </div>
+                    <div class="thumb-item search-first modal-action modal-close" onclick="window.location.href='index.html#metamax/13'">
+                        <div class="img" style="background:url('assets/page/t/7.jpg');background-size:100% 100%;"></div>
+                        <div class="cpt grey lighten-5">
+                            <p>HAL APA SAJA YANG BISA DILAKUKAN TECHNOPRENEUR</p>
+                        </div>
+                    </div>
+                    <div class="thumb-item search-first modal-action modal-close" onclick="window.location.href='index.html#metamax/15'">
+                        <div class="img" style="background:url('assets/page/t/8.jpg');background-size:100% 100%;"></div>
+                        <div class="cpt grey lighten-5">
+                            <p>MENGENAL STARTUP & ABOUT POJOK MEDIA</p>
+                        </div>
+                    </div>
+
+                    <div class="thumb-item search-first modal-action modal-close" onclick="window.location.href='index.html#metamax/17'">
+                        <div class="img" style="background:url('assets/page/t/9.jpg');background-size:100% 100%;"></div>
+                        <div class="cpt grey lighten-5">
+                            <p>TIPS SUKSES STARTUP & MINAT PELAJAR DALAM DUNIA TECHNOPRENEUR</p>
+                        </div>
+                    </div>
+
+                    <div class="thumb-item search-first modal-action modal-close" onclick="window.location.href='index.html#metamax/19'">
+                        <div class="img" style="background:url('assets/page/t/10.jpg');background-size:100% 100%;"></div>
+                        <div class="cpt grey lighten-5">
+                            <p>KOMIK</p>
+                        </div>
+                    </div>
+
+                    <div class="thumb-item search-first modal-action modal-close" onclick="window.location.href='index.html#metamax/21'">
+                        <div class="img" style="background:url('assets/page/t/11.jpg');background-size:100% 100%;"></div>
+                        <div class="cpt grey lighten-5">
+                            <p>ABOUT SMKN 1 PURWOSARI</p>
+                        </div>
+                    </div>
+
+                    <div class="thumb-item search-first modal-action modal-close" onclick="window.location.href='index.html#metamax/23'">
+                        <div class="img" style="background:url('assets/page/t/12.jpg');background-size:100% 100%;"></div>
+                        <div class="cpt grey lighten-5">
+                            <p>PROFIL TEAM</p>
+                        </div>
+                    </div>
+
+                    <div class="thumb-item search-first modal-action modal-close" onclick="window.location.href='index.html#metamax/25'">
+                        <div class="img" style="background:url('assets/page/t/13.jpg');background-size:100% 100%;"></div>
+                        <div class="cpt grey lighten-5">
+                            <p>ABOUT MCC & Central Spring Bed</p>
+                        </div>
+                    </div>
+
+                    <div class="thumb-item search-first modal-action modal-close" onclick="window.location.href='index.html#metamax/27'">
+                        <div class="img" style="background:url('assets/page/t/14.jpg');background-size:100% 100%;"></div>
+                        <div class="cpt grey lighten-5">
+                            <p>JAGA KESEHATAN DENGAN TIDUR BERKUALITAS</p>
+                        </div>
+                    </div>
+                </center>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class=" modal-action modal-close waves-effect red btn">Tutup&nbsp;
+                <i class="material-icons right">close</i>
+            </a>
+        </div>
+
+    </div>
+
+
+    <!-- modal help -->
+    <div class="modal" id="modal_help">
+        <div class="modal-content row" style="overflow:hidden;">
+            <h4 class="robo grey-text">Bantuan</h4>
+            <div class="col m6 l6 s12">
+                <center>
+                    <ul class="collection">
+                        <li class="collection-item robo">
+                            <i class="material-icons left">chevron_left</i>Halaman Sebelumnya</li>
+                        <li class="collection-item robo">
+                            <i class="material-icons left">home</i>Halaman Awal (F)</li>
+                        <li class="collection-item robo">
+                            <i class="material-icons left">content_copy</i>Copy Instan (C)</li>
+                        <li class="collection-item robo">
+                            <i class="material-icons left">zoom_in</i>Zoom In (+)</li>
+                        <li class="collection-item robo">
+                            <i class="material-icons left">android</i>Download Versi Android</li>
+                        <li class="collection-item robo">
+                            <i class="material-icons left">settings</i>Pengaturan</li>
+                        <li class="collection-item robo">
+                            <i class="material-icons left">message</i>Beri Komentar</li>
+                    </ul>
+                </center>
+            </div>
+
+            <div class="col m6 l6 s12">
+                <center>
+                    <ul class="collection">
+                        <li class="collection-item robo">
+                            <i class="material-icons left">chevron_right</i>
+                            <span>Halaman Selanjutnya</span>
+                        </li>
+                        <li class="collection-item robo">
+                            <i class="material-icons left">search</i>
+                            <span>Cari (S)
+                                <span>
+                        </li>
+                        <li class="collection-item robo">
+                            <i class="material-icons left">volume_up</i>
+                            <span>Atur Musik (M)
+                                <span>
+                        </li>
+                        <li class="collection-item robo">
+                            <i class="material-icons left">bookmark</i>Penanda Halaman</li>
+                        <li class="collection-item robo">
+                            <i class="material-icons left">zoom_out</i>Zoom Out (-)</li>
+                        <li class="collection-item robo">
+                            <i class="material-icons left">chrome_reader_mode</i>Download Versi PDF</li>
+                        <li class="collection-item robo">
+                            <i class="material-icons left">edit</i>Upload Artikel</li>
+
+                    </ul>
+                </center>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="fixed-action-btn click-to-toggle" id="btn-menu">
+        <a class="btn-floating btn-large red">
+            <i class="large material-icons">menu</i>
+        </a>
+        <ul>
+            <li>
+                <a class="btn-floating yellow zoomin">
+                    <i class="material-icons">zoom_in</i>
+                </a>
+            </li>
+            <li>
+                <a class="btn-floating blue zoomout">
+                    <i class="material-icons">zoom_out</i>
+                </a>
+            </li>
+            <li>
+                <a href="#modal_help" class="btn-floating green">
+                    <i class="material-icons">help</i>
+                </a>
+            </li>
+            <li>
+                <a href="#modal1" class="btn-floating blue darken-3">
+                    <i class="material-icons">search</i>
+                </a>
+            </li>
+            <li>
+                <a href="#metamax/1" class="btn-floating yellow darken-4">
+                    <i class="material-icons">home</i>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+
+
+
+
+
+
+    <!-- Javascript at the bottom for fast page loading -->
+
+    <!-- Grab Google CDN's jQuery. fall back to local if necessary -->
+
+    <!-- scripts concatenated and minified via ant build script-->
+    <script src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.hotkeys.js"></script>
+    <script type="text/javascript" src="assets/js/clipboard.min.js"></script>
+    <script type="text/javascript" src="assets/js/hotkeys.js"></script>
+    <script type="text/javascript" src="assets/js/MetaMax5.js"></script>
+    <!-- <script type="text/javascript" src="assets/js/MetaMax5.min.js"></script> -->
+    <script type="text/javascript" src="assets/js/bookmarks.js"></script>
+    <script type="text/javascript" src="assets/js/materialize.js"></script>
+    <script type="text/javascript" src="assets/js/book.min.js"></script>
+    <script type="text/javascript" src="assets/js/jssocials.min.js"></script>
+    <script src="assets/js/custom_share.js"></script>
+    <script type="text/javascript" src="assets/file/library/video.js"></script>
+    <script src="assets/js/uikit.min.js"></script>
+    <script src="assets/js/uikit-icons.min.js"></script>
+
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            $('.modal').modal();
+            Materialize.toast('Selamat Datang di Metamax', 3000);
+            $('.tooltiped').tooltip({ delay: "50" });
+            $('.datepicker').pickadate({
+                selectMonths: true, // Creates a dropdown to control month
+                selectYears: 15 // Creates a dropdown of 15 years to control year
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        document.querySelector('#audio').addEventListener('change', function (e) {
+
+            var file = e.target.files[0], player = document.querySelector('#player');
+
+            if (file.type.match('audio') && player.canPlayType(file.type)) {
+                var fd = new FileReader;
+                fd.onload = function (evt) {
+                    player.src = evt.target.result;
+                    player.controls = true;
+                    player.play();
+                }
+                fd.readAsDataURL(file);
+            }
+            else {
+                alert('Browser anda tidak support untuk audio ini');
+            }
+        }, false);
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-36104504-1']);
+        _gaq.push(['_trackPageview']);
+
+        var clipboard = new Clipboard('.copied');
+        clipboard.on('success', function (e) {
+            Materialize.toast("Konten Telah Di Copy :)", 1000)
+        });
+    </script>
+
+</body>
+
+</html>
